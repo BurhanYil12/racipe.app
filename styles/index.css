@@ -1,0 +1,85 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+.App1 {
+    min-height: 100vh;
+    background-color: #F5F5F5;
+}
+
+.cont {
+    width: 50%;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ortala {
+    text-align: center;
+}
+
+.q-input {
+    border-radius: 3px;
+    width: 100%;
+    border: 0.5px solid rgb(213, 213, 252);
+    outline: none;
+    font-size: 18px;
+}
+
+.q-label {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0;
+    color: rgb(105, 103, 103);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.q-input-wrapper {
+    display: block;
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.y {
+    padding: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5rem;
+}
+
+h3 {
+    color: rgb(105, 103, 103);
+}
+
+form {
+    width: 100%;
+}
+
+.btn1 {
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    background-color: #FF8B39;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn1:hover {
+    opacity: 0.8;
+}
+
+a:hover {
+    color: #FF8B39;
+}
